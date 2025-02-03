@@ -1,6 +1,6 @@
 #!/bin/bash
 file1=$(head -n 1 .testregistry)
-tag=$1
+tag='c3pobot/nginxvpn'
 if [[ "$file1" ]]
 then
   echo 'personal registry set'
